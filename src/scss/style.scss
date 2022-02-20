@@ -1,0 +1,172 @@
+
+@font-face {
+    font-family: 'HelveticaNeue';
+    src: url('../fonts/HelveticaNeueBold.eot');
+    src: url('../fonts/HelveticaNeueBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/HelveticaNeueBold.woff2') format('woff2'),
+        url('../fonts/HelveticaNeueBold.woff') format('woff'),
+        url('../fonts/HelveticaNeueBold.ttf') format('truetype'),
+        url('../fonts/HelveticaNeueBold.svg#HelveticaNeueBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.car {
+    width: 100%;
+    background: #343539;
+    padding-top: 40px;
+    padding-bottom: 129px;
+    &_wrapper{
+        max-width: 728px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    &_title {
+        font-family: 'HelveticaNeue';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 56px;
+        line-height: 68px;
+        color: #FFFFFF;
+        margin-bottom: 25px;
+    }
+    &_order_steps_wrapper {
+        display: flex;
+        align-items: center;
+        margin-bottom: 16px;
+    }
+    &_order_step_number_wrapper {
+        background: #EF483E;
+        width: 24px;
+        height: 24px;
+        border-radius: 100%;
+        margin-right: 8px;
+        position: relative;
+        
+    }
+    &_order_step_number {
+        font-family: 'HelveticaNeue';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 20px;
+        color: #FFFFFF;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-66%, -50%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &_order_steps_title {
+        font-family: 'HelveticaNeue';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 30px;
+        color: #FFFFFF;
+    }
+    &_input_title {
+        font-family: 'HelveticaNeue';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 16px;
+        color: #FFFFFF;
+        margin-bottom: 8px;
+    }
+    &_input_title_wrapper {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 16px;
+    }
+    &_inputs_main_wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    &_input__titles_wrapper {
+        margin-bottom: 45px;
+    }
+     .select_wrapper {
+        background: #FFFFFF;
+        width: 172px;
+        height: 44px;
+        padding: 13px 14px;
+        font-family: 'HelveticaNeue';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 16px;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        outline: none;
+        cursor: pointer;
+    }
+    .second_select_wrapper {
+        background: #FFFFFF;
+        width: 356px;
+        height: 44px;
+        padding: 13px 14px;
+        font-family: 'HelveticaNeue';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 16px;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        outline: none;
+        cursor: pointer;
+    }
+    .select_arrow {
+        position: absolute;
+        top: 11px;
+        right: 20px;
+    }
+    .select_arrow_wrapper {
+        position: relative;
+      
+    }
+    &_order_select_title {
+        font-family: 'HelveticaNeue';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 16px;
+        color: #FFFFFF;
+        margin-bottom: 8px;
+    }
+    &_order_select_title_wrapper {
+        width: 172px;
+    }
+    &_order_selects_wrapper {
+        display: flex;
+        align-items: center;
+    }
+    .first_select_wrapper{
+        margin-right: 12px;
+    }
+    &_order_second_select_title_wrapper {
+        margin-bottom: 16px;
+    }
+    &_order_select_input_wrapper {
+        display: flex;
+        align-items: center;
+        margin-bottom: 16px;
+    }
+    &_order_declared_value_input  {
+        width: 170px;
+        height: 40px;
+        padding:0 14px;
+    }
+    &_order_selects_inputs_wrapper {
+        width: 356px;
+    }
+}
